@@ -14,9 +14,6 @@
     padding-left: 40px;
     padding-right: 40px;
     box-sizing: border-box;
-    border: 2px solid red;
-    
-    
 	}
 
 #content
@@ -28,15 +25,14 @@
     padding-left: 40px;
     padding-right: 40px;
     box-sizing: border-box;
-    border: 2px solid red;
+    position: relative;
+    }
    
-	}
-
 #container 
 	{
      margin-right: auto; /*Auto margins used for centering elements*/
      margin-left: auto; /*See previous topic*/
-     width: 960px;
+     width: 1000px;
      /*height: 600px;*/
      font-size: 0;
      /*background-color: #AA4639;*/
@@ -55,42 +51,65 @@
      margin: 10px;
      padding-top: 10px;
      text-align: justify;
-    
-
+     margin-bottom: 50px;
 	}
 
-h1 {text-align: center}
+h1 {text-align: center;}
+
 h2 {text-align: center;}
+
+#footer {line-height: 100px; padding-top: 0px}
+
+#LinkToTop{position: absolute; right: -50px; bottom: 0px;}
+
+#sideLinkToTop {position: absolute; left: -550px; bottom: 0px;}
 
 </style>
 </head>
 
 <body>
 	<div id="container">
-		<div class="box">
-		<h1 >Header</h1>
-		</div>
+		
+        <header class="box">
+		      
+            <h1 >Header</h1>
+		
+        </header>
     	
     	<div class="box" id="sidebar">
     	
-        <h2>Sidebar</h2>
+            <h2>Sidebar</h2>
+            
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore corporis ex omnis amet quisquam, earum cum, nihil eos rem qui in cumque nesciunt. Odit, facere asperiores repellendus quibusdam beatae.</p>
+
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore corporis ex omnis amet quisquam, earum cum, nihil eos rem qui in cumque nesciunt. Odit, facere asperiores repellendus quibusdam beatae.</p>
 
     	</div>
     	
-    	<div  class="box" id="content">
-    	<h2>Content</h2>
+    	<div class="box" id="content">
+    	       
+            <h2>Content</h2>
+             
              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore corporis ex omnis amet quisquam, earum cum, nihil eos rem qui in cumque nesciunt. Odit, facere asperiores repellendus quibusdam beatae.</p>
-    	</div>
+
+             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore corporis ex omnis amet quisquam, earum cum, nihil eos rem qui in cumque nesciunt. Odit, facere asperiores repellendus quibusdam beatae.</p>
+    	
+            <img src="arrow.png" alt="arrow" height="42" width="42" id="LinkToTop">
+
+            <img src="arrow.png" alt="arrow" height="42" width="42" id="sideLinkToTop">
+
+
+        </div>
    		
-   		<div  class="box">
-   		<h2>Footer</h2>
+        
+
+   		<footer  class="box" id="footer">
+   		
+            <h2>Footer</h2>
      
-   		</div>
+   		</footer>
 
 	</div>;
-
-
 
 </body>
 
